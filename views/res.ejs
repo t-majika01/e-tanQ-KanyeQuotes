@@ -1,0 +1,29 @@
+<%- include("header") -%>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="my-currency-container">
+                <div class="card">
+                    <div class="card-head">
+                        <h1>Ye for president</h1>
+                    </div>
+                    <div class="card-body">
+                        <p><%=kanyeQuoteRes%></p>
+                        <form method="post" action="/more">
+                            <button type="submit" class="convert-btn">More Quotes</button>
+                        </form>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+
+</div>
+
+
+
+<%- include("footer") -%>
